@@ -1,0 +1,77 @@
+---
+title: "sat_tas_tta380_wdl"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_tas_tta380_wdl
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **cd_opt** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_unit_price** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_pmt** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_chq_fee** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_no_tfn_tax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **dt_settle** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **in_frzn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_asst_mgmt** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_death_xgrtia** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_addnl_srvc** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_backdt_cost** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_bad_rcvr** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_fid_rcvr** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **id_ws_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_non_res_tax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **id_user_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_fc_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_ins_sduty** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_acct** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_ins_prem** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_waivd_exit_ioof** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_txn_ref** | `NUMERIC` | TRUE | VS Type: PRIMARY_KEY |
+| **in_exceed_thold** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_mbr_fee** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_ben_pmt_fee** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **am_ins_agt_comm** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_prod** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_bad_calc** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_waivd_exit_agt** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **in_intrm** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_wdrwl_tax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_cntrbn_tax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_mbp_reb** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_opt_dist** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **ts_chg** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **am_opt_dist_wdlf** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_lbk_repmt** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **ty_wdl_txn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **ty_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **transaction_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

@@ -1,0 +1,47 @@
+---
+title: "sat_compass_mbrschemestatus_reference"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_compass_mbrschemestatus_reference
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **reference_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+| **src_field_name** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **xref_tp_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **xref_name** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **tgt_cd_val** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **src_field_val** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **src_sys_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **xref_st_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **aggr_load_btch_id** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **tgt_id_val** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

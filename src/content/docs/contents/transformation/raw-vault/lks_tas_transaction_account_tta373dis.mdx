@@ -1,0 +1,56 @@
+---
+title: "lks_tas_transaction_account_tta373dis"
+description: "VaultSpeed LDS table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# lks_tas_transaction_account_tta373dis
+
+VaultSpeed LDS table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** LDS
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **am_no_tfn_tax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_acct_tax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_bad_rcvr** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_fid_rcvr** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **id_ws_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_non_res_tax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **id_user_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_fc_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_acct** | `NUMERIC` | TRUE | VS Type: PRIMARY_KEY |
+| **cd_dist_meth** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_txn_ref_cre8d** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_txn_ref** | `NUMERIC` | TRUE | VS Type: PRIMARY_KEY |
+| **am_rcpt_int** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **nb_pmt_req** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_bad_calc** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_section_98_tax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_opt_dist** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **ts_chg** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **ty_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **lnk_transaction_account_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:LDS`
+
+---

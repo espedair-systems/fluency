@@ -1,0 +1,32 @@
+---
+title: Data Ingestion
+description: Overview of the data ingestion processes and source systems for the Data Platform.
+---
+
+# Data Ingestion
+
+Our data ingestion layer is responsible for bringing data from various source systems into the Unified Data Platform (UDP).
+
+## Overview
+
+The ingestion process involves:
+1. **Extraction**: Retrieving data from source systems.
+2. **Landing**: Storing raw data in a secure, scalable landing zone.
+3. **Validation**: Ensuring data quality and integrity.
+
+## Supported Sources
+
+- **Evolve**: Core administrative data.
+- **TAS**: Transactional accounting system.
+- **Compass**: Operational data.
+- **Gatekeeper**: Security and access logs.
+- **Trust Architect**: Architectural metadata.
+- **Composer**: Orchestration metadata.
+
+## Ingestion Patterns
+
+### Batch Processing
+Scheduled data transfers for large volumes of historical data.
+
+### Real-time Streaming
+Near-instantaneous data ingestion for critical business monitoring.

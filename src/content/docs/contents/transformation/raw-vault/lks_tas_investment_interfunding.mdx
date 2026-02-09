@@ -1,0 +1,58 @@
+---
+title: "lks_tas_investment_interfunding"
+description: "VaultSpeed LDS table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# lks_tas_investment_interfunding
+
+VaultSpeed LDS table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** LDS
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **nb_fund_sub_cmpny** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **cd_opt** | `STRING` | TRUE | VS Type: FOREIGN_KEY |
+| **nb_fund_brnch_intf** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **dt_eff_fr** | `DATE` | TRUE | VS Type: ORIG_SUBSEQUENCE_ATTRIBUTE |
+| **nb_fund_subco_intf** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **nb_fund_branch** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **nb_fund_cmpny_intf** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **id_ws_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_user_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_fc_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_acct** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **nb_fund_state_intf** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **dt_eff_fr_seq** | `DATE` | TRUE | VS Type: SUBSEQUENCE_ATTRIBUTE |
+| **cd_prod** | `STRING` | TRUE | VS Type: FOREIGN_KEY |
+| **nb_fund_state** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **dt_eff_to** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **ts_chg** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **nb_fund_cmpny** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **pr_invest** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **ty_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **lnk_investment_interfunding_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:LDS`
+
+---

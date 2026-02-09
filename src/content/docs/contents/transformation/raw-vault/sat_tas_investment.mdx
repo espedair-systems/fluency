@@ -1,0 +1,85 @@
+---
+title: "sat_tas_investment"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_tas_investment
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **nb_fund_sub_cmpny** | `NUMERIC` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **qt_fund_mill** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_vision_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_fund_intrnl** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_taxable** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_perf_calc** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **ds_inv_fund** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **ty_fund** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_drec_crdt_user** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_vp_fund_branch** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **st_fund** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_acct_bank** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_fund_branch** | `NUMERIC` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **nm_acct_bank_long** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_fund_iiml_hport** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_ws_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **pr_wdl_notif** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **pr_wdl_thold** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_drec_user** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **ds_inv_fund_shrt** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_user_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_fc_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_invmat_pmt_allw** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_branch** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **pr_notnl_erning** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **visiplan_prod_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_settle_days** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_mgr_cmpny** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_sylvan** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_allow_rtgs** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **cd_inv_srvc** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_vp_fund_state** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_fund_state** | `NUMERIC` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **dt_fund_open** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **cd_bank** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_adm_cmpny** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **visiplan_prod_grp** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **pr_adj_wdl** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_sector** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_apir** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dt_fund_status** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **ts_chg** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **nb_fund_cmpny** | `NUMERIC` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **nb_fund_abn** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **dt_sylvan_next** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **ty_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_fund_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **investment_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

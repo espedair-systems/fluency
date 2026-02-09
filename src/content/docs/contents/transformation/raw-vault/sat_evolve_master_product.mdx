@@ -1,0 +1,75 @@
+---
+title: "sat_evolve_master_product"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_evolve_master_product
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_references_taxtradingoperationaccount_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_corporateidentifiers_uniquesuperannuationidentifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_corporateidentifiers_mysuperuniqueidentifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_trustee_afsl** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_operationalriskreserveaccount_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_billercode** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_taxtradingoperationaccount_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_tfn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_legalentity_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_identifier** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **value_state_status** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_exgratiainvestment_identifier** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_trustee_abn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_exgratiainvestment_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_cashinvestment_identifier** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_deferredtaxinvestment_identifier** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_abn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_tradingreserveaccount_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_deferredtaxinvestment_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_incomereserveaccount_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_code** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_timestamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_references_legalentity_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_type** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_references_incomereserveaccount_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_cashinvestment_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_tradingreserveaccount_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_corporateidentifiers_registrablesuperannuationentity** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_trustee_roledescription** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_name** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_references_operationalriskreserveaccount_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_trustee_name** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_source_kafka_partition** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_key** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_offset** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **master_product_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_source_kafka_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

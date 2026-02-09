@@ -1,0 +1,52 @@
+---
+title: "sat_outsystems_evolveproductclassification_reference"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_outsystems_evolveproductclassification_reference
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **productgroupdescription** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **recordstartdate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **activeflag** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **productgroupcode** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **masterfundname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **recordenddate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **lineofbusinesscode** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **fundcode** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **badgename** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **divisionnumber** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **producttype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **productlongname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **productcategory** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **pensionclass** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **reference_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

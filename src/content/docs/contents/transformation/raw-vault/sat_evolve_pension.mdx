@@ -1,0 +1,136 @@
+---
+title: "sat_evolve_pension"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_evolve_pension
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **value_state_nextpaymenttax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_relevantnumber** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_preferredpaymentday** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_amount** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_complyingtype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_paymenttype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarydateofdeath** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_frequency** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_pensionersex** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_proratamaximum** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_isreverted** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_agebasedmaxpercentage** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_balancedate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_beneficiarytype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_deceasedmember_taxationindicator** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_isyoungerthan60** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_indexationrate** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarytitle** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_deceasedmember_dependantshare** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarydod** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_claimtaxfreethreshold** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_identifier** | `STRING` | TRUE | VS Type: ORIG_SUBSEQUENCE_ATTRIBUTE |
+| **value_state_accountstatus** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_firstpaydate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_nextpaymentnet** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_status** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_deceasedmember_deceasedmembernumber** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_startdate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarylifeexpectancy** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_lockreason** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_legalcode** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_isindexed** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_prorataminimum** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_nextpaymentdate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_paygtaxpayment** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_accountnumber_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_renewalbalance** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_fixed** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarygivenname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_deceasedmember_retirementphase** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarynomination** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_memberclass** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_pensionnumber** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_pensioncalculationstartdate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_dateofbirth** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_accountnumber_identifier** | `STRING` | TRUE | VS Type: FOREIGN_KEY |
+| **value_state_grossannualpayment** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarydateofbirth** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_identifier_seq** | `STRING` | TRUE | VS Type: SUBSEQUENCE_ATTRIBUTE |
+| **value_state_dateofdeath** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_paymentspikeaction** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_nominationperiod** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarytfnstatus** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_level** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_netorgross** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_perpayment** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_term** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_calcdate** | `DATE` | TRUE | VS Type: ORIG_SUBSEQUENCE_ATTRIBUTE |
+| **value_state_reversionarytfn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_timestamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_references_deceasedmember_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_purchaseprice** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionaryrelationshipold** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_deceasedmember_accumulationphase** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_type** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_pensionerdateofbirth** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_lockstatus** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_pensionfactormaximum** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_deceasedmember_identifier** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_pensiontype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarydob** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_netannualpayment** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarysurname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_lifeexpectancy** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_divisionnumber** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_dateforreversionaryregistration** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_displayname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_centrelinkminimum** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_retirementphaseopeningbalance_balancedate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_maximum** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarycompleted** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_agebasedminpercentage** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_minimum** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_clientageatdeath** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_deceasedmember_personno** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reverteddate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_nextpaymentgross** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_reversionarysex** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_ageatonejuly** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_termremaining** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_indexationtype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_pensionclass** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_retirementphaseopeningbalance_balance** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_calcdate_seq** | `DATE` | TRUE | VS Type: SUBSEQUENCE_ATTRIBUTE |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_partition** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_key** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_offset** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **account_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_source_kafka_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

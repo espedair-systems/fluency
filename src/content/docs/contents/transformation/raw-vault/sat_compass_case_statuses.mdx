@@ -1,0 +1,52 @@
+---
+title: "sat_compass_case_statuses"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_compass_case_statuses
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **plan_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+| **eff_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **stat_desc** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **case_stat_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **xpir_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **rec_stat_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **expire_new** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **csst_key** | `NUMERIC` | TRUE | VS Type: ORIG_SUBSEQUENCE_ATTRIBUTE |
+| **term_reas_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **load_btch_id** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **csst_key_seq** | `NUMERIC` | TRUE | VS Type: SUBSEQUENCE_ATTRIBUTE |
+| **last_mod_user** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **last_mod_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **delete_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **case_key** | `NUMERIC` | TRUE | VS Type: PRIMARY_KEY |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

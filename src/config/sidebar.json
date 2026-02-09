@@ -1,0 +1,141 @@
+{
+  "main": [
+    {
+      "label": "Getting Started",
+      "translations": {
+        "fr": "Commencer"
+      },
+      "items": [
+        {
+          "label": "[seti:vite] Introduction",
+          "translations": {
+            "fr": "[seti:vite] Introduction"
+          },
+          "autogenerate": {
+            "directory": "getting-started/introduction"
+          }
+        },
+        {
+          "label": "[setting] Global Settings",
+          "translations": {
+            "fr": "[setting] Paramètres globaux"
+          },
+          "autogenerate": {
+            "directory": "getting-started/global-settings"
+          }
+        },
+        {
+          "label": "[seti:plan] Navigation",
+          "translations": {
+            "fr": "[seti:plan] Navigation"
+          },
+          "slug": "getting-started/navigation"
+        }
+      ]
+    },
+    {
+      "label": "Data Platform",
+      "items": [
+        {
+          "label": "Ingestion",
+          "items": [
+            {
+              "label": "[seti:vite] Overview",
+              "slug": "contents/ingestion"
+            },
+            {
+              "label": "Source Custodian",
+              "items": [
+                {
+                  "label": "[seti:db] BNPP",
+                  "slug": "contents/source-custodian/bnpp"
+                },
+                {
+                  "label": "[seti:db] Morningstar",
+                  "slug": "contents/source-custodian/morningstar"
+                }
+              ]
+            },
+            {
+              "label": "Source Registry",
+              "items": [
+                {
+                  "label": "[seti:db] Evolve",
+                  "slug": "contents/source-registry/evolve"
+                },
+                {
+                  "label": "[seti:db] TAS",
+                  "slug": "contents/source-registry/tas"
+                },
+                {
+                  "label": "[seti:db] Compass",
+                  "slug": "contents/source-registry/compass"
+                },
+                {
+                  "label": "[seti:db] Composer",
+                  "slug": "contents/source-registry/composer"
+                },
+                {
+                  "label": "[seti:db] Trust Architect",
+                  "slug": "contents/source-registry/trust-architect"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Transformation",
+          "items": [
+            {
+              "label": "[seti:json] Overview",
+              "slug": "contents/transformation"
+            },
+            {
+              "label": "[seti:db] Raw Vault",
+              "slug": "contents/transformation/raw-vault"
+            },
+            {
+              "label": "[seti:db] Business Vault",
+              "slug": "contents/transformation/business-vault"
+            },
+            {
+              "label": "[seti:db] Business Consumption Layer",
+              "slug": "contents/transformation/business-consumption-layer"
+            }
+          ]
+        },
+        {
+          "label": "Consumption",
+          "items": [
+            {
+              "label": "[seti:plan] Overview",
+              "slug": "contents/consumption"
+            },
+            {
+              "label": "[seti:search] Looker",
+              "slug": "contents/consumption/looker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Reference",
+      "translations": {
+        "fr": "Référence"
+      },
+      "autogenerate": {
+        "directory": "reference"
+      }
+    },
+    {
+      "label": "Configurations",
+      "translations": {
+        "fr": "Configurations"
+      },
+      "autogenerate": {
+        "directory": "configurations"
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+---
+title: "sat_rocket_demand"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_rocket_demand
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **value_state_advice_outcome_financial_coaching** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_references_demandee_adviser_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_sent_via** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_assigned_financial_coach** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_referral_referee_other** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_demandee_adviser_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_consequential_failure** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_follow_up_date** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_member_account_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_demandee_superfund_key** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_fsg_date** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_historical_follow_ups** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_demandee_dealer_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_creation_date** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_dealer_licence_number** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_consequential_failure_original_demand_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_demandee_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_identifier** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **value_state_status** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_referral_referee_team** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_source_kafka_partition** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_update_what_other** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_application_status** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_invest_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_advice_reasons** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_appointment_date** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_product_tmd_reason_outside_tmd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_advice_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_member_account_account_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_adviser_code** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_contact_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_product_tmd_tmd_notes** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_product_tmd_dealing_value** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_close_date** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_transfer_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_source_kafka_key** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_what_matters_what** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_member_account_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_claim_status** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_invest_type_other** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_demand_source** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_claim_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_referral_referee** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_product_tmd_tmd_valid_to** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_advice_category** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_member_account_name** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_demandee_superfund_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_advice_outcome_scaled_advice** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_demandee_adviser_linked_adviser_codes** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_setup_what_other** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_demandee_dealer_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_referral_referee_team_other** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_what_matters_what_other** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_timestamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_demand_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_engagement_conversation_with_customer** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_info_what_other** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_fsg_required** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_demandee_employer_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_member_account_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_advice_discussed_other** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_product_tmd_dealing_date** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_update_what** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_contact_timestamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_employer_code** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_contact_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_source_kafka_offset** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_withdraw_reason_other** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_product_name** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_demandee_dealer_key** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_able_to_find_out_what_matters** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_product_tmd_tmd_status** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_advice_discussed** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_referral_referral_date** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_product_tmd_dealing_account_number** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_demandee_employer_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_info_what** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_demandee_superfund_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_advice_topic** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_demandee_employer_key** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_type_of_pack** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_claim_type_other** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_setup_what** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_product_tmd_tmd_timestamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_originating_campaign** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_withdraw_reason** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_contact_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_jira_transfer_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_what_matters_how** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_what_matters_amount** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **demand_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_source_kafka_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

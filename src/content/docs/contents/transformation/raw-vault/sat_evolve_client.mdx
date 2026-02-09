@@ -1,0 +1,100 @@
+---
+title: "sat_evolve_client"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_evolve_client
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **value_state_client_contact_title** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_hasbeneficiaryclasses** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_associationtype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_listingdetails_regulatedregulator** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_emailusable** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_jointname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_amlriskflag** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_listingdetails_subsidiarycompanyname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_surname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_politicallyexposedperson** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_email** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_phonenumbers_home** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_fatcastatus** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_legalentity_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_identifier** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **value_state_client_abn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_australianresidencystatus** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_hasforeigntaxresidencies** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_listingdetails_subsidiaryexchange** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_trusteegiin** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_salutation** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_acneffectivedate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_registrationnumber** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_listingdetails_australianpubliclistedexchange** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_displayname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_listingdetails_regulatedlicence** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_globalintermediaryidentificationnumber** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_abnstatus** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_nonparticipatingcrsjurisdiction** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_din** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_sex** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_tfnstatus** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_fatcastatusdescription** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_othertrusttypedescription** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_associationname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_listingdetails_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_timestamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_references_legalentity_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_acn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_type** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_client_contact_givennames** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_phonenumbers_mobile** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_taxstatus** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_dateofdeath** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_dateofbirth** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_selfcertificationdate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_acnstatus** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_trusteetype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_dateofresidencychange** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_clienttype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_trusttype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_companytype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_countryofresidence** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_abneffectivedate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_deathcertificatedate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_tfneffectivedate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_client_contact_phonenumbers_work** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_certifiedid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_partition** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_key** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_offset** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **client_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_source_kafka_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

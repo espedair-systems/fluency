@@ -1,0 +1,104 @@
+---
+title: "sat_tas_account"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_tas_account
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **in_pend_matur** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **pr_addnl_srvc_fee** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_req_dt_assbl** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **dt_nomntn_benef_fr** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **nb_tot_reject** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **tx_inc_resn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dt_advice_consent** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **tx_restrict** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dt_enc_fr** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **nb_cert_sufx** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_close_req** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **ty_benef_nomntn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dt_comence** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **in_borrowed_monies** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dt_comence_last** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **in_cert_reqd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_chld_adv** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_adv_rlship** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_cnfdntl** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_wdrwl_sign** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_agt** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **dt_matur_last** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **dt_matur** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **ts_axs** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **in_sep_stmt** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_ws_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dt_close** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **cd_pref_addr** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_rstrct_adv_accs** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_agt_last** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **in_dlet** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_user_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_fc_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_acct** | `NUMERIC` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **cd_inc_resn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_acct_old** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_lbk_conv** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_stmt_freq** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nm_enc** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dt_assbl_prev** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **nb_comence_req** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_fee_clas** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_frelk_waiv** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_rcpt_int** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **dt_advice_renew** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **in_hold_stmt** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_crn** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **tx_cnfdntl_instruc** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_prod** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_restrict** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dt_assbl_start** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **id_acct_bank_wdrwl** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_mail_to** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **tx_enc_resn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **ts_chg** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **dt_nomntn_benef_to** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **nb_matur_req** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_internal_acct** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **st_in_dispute** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_inc** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **tx_in_dispute_resn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **ty_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_hold_fin_rpt** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_acct_bank_ctn** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_agt_req** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **dt_enc_to** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **account_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

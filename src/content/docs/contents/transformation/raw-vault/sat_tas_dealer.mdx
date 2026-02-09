@@ -1,0 +1,89 @@
+---
+title: "sat_tas_dealer"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_tas_dealer
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **dt_dealr_agmt_rcvd** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **cd_stmt_reqd_prt** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_bdm** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_iac** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_pend_term** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **ty_comm_file_fmt** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_ind_clas** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_freq** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_corp** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **dt_pmt_susp** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **dt_comence** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **dt_contact_last** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **ty_cost_centre** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_iac** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_agt** | `NUMERIC` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **in_comm_file** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_mrg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_pmt_meth** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_init_dep_letr** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **ty_stream** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_rcti_agrmt_st** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_ws_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_reb_trlr_alowd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_proper_auth** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_agt_import** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_user_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_fc_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dt_term** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **nb_payee_agt** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_sale_incent** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_bdm_fua** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_dealr_agmt_rcvd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_agt_old** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_mstr** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **in_unit_dist_letr** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_ulla_adviser_id** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dt_deal_lic** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **in_pmt_nil** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_asis** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_cntl_agt** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_mstr_agt** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_auth_rep** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_agt_old_am** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_deal_lic** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **ty_stmt_disk_file** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **ts_chg** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **in_add_dep_letr** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_stmt_disk** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_pmt_susp** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **ty_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **in_email_confirm** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dealer_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

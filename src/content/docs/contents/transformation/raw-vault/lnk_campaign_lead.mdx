@@ -1,0 +1,36 @@
+---
+title: "lnk_campaign_lead"
+description: "VaultSpeed LND table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# lnk_campaign_lead
+
+VaultSpeed LND table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** LND
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **lnk_campaign_lead_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_record_source_name** | `STRING` | TRUE | VS Type: RECORD_SOURCE |
+| **campaign_hkey** | `BYTES` | TRUE | VS Type: OBJECT_F_H_KEY |
+| **lead_hkey** | `BYTES` | TRUE | VS Type: OBJECT_F_H_KEY |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:LND`
+
+---

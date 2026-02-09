@@ -1,0 +1,189 @@
+---
+title: "sat_evolve_transaction"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_evolve_transaction
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **value_references_benefitpayment_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_contributionextra_superfundnumber** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_eligibleterminationpayment_taxabletaxed** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_other_capitalreturn** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_contributionextra_usi** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nontaxable_amitdecrease** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_incomenumber** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_incomeadjustments_taxdeferred** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_income_foreigntaxcredit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_investmentnumber** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_units** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_indexedtaxcostbase** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_foreignindexedntap** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_indexedcostbase** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_description** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_other_taxfilenumberwithheld** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_foreign_indexedntarptaxcredit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_sale_date** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_foreign_assessable** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_foreignotherntap** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_sale_gains** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_taxyear** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_contributionextra_isselfmanagedsuperfund** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_eligibleterminationpayment_payee** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_incomeadjustments_amit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_indexedinitialcostbase** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_discountedtapncmi** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_eligibleterminationpayment_unrestrictednonpreserved** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_interestnonresidentnotwithholding** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_unfrankeddividends** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_reversalof_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nontaxable_taxfree** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_frankingcredits** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_contributionextra_superfundname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_incomeadjustments_amitdecrease** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_reversalof_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_foreign_discountedntarptaxcredit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_identifier** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **value_references_selltransaction_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_othercapitalgainsdistributed** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_sale_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nonresident_fundpaymentclean** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_incomeadjustments_taxfree** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_eligibleterminationpayment_cashetp** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_income_notaxfilenumbertax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_deductibleexpenses** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_foreign_taxoffset** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_income_nonresidenttax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_concessional** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_selltransaction_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_costbase** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_capitalgains_assessable** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_discountedcleanbuildingmit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_income_tax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_investmentnumber** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_eligibleterminationpayment_taxfree** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_foreign_modifiedpassive** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_othercredits** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_incomeadjustments_capitalreturn** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_frankeddividends** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_othertapexcludedfromncmi** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_openingincomeadjustments_amitincrease** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_capitalgains_cgtable** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_foreign_passivetaxcredit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_account_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nonresident_ncmitapncmicg** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_contributionextra_abn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_type** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_nonconcessionmit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_contributionextra_payer** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_income_received** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_openingincomeadjustments_amitdecrease** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_othertapncmi** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_entryfee** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_otherntapexcludedfromncmi** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_amitcgtgrossup** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_benefitpayment_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_sale_proceeds** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_otherntarp** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_sale_cgtable** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_income_accruedtax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_interest** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_eligibleterminationpayment_taxableuntaxed** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_income_net** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_foreign_newzealandfrankingcredits** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_costdate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_othercleanbuildingmit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_group** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_discountedntarp** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_discounted** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_excludednonconcessionalmit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nonresident_interest** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nontaxable_taxdeferred** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_other_liccapitalgains** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_eligibleterminationpayment_preserved** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_foreign_taxcredit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nonresident_exncmitapexncmicg** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_eligibleterminationpayment_restrictednonpreserved** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_timestamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_income_foreign_interest** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_openingincomeadjustments_taxdeferred** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nonresident_other** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nontaxable_othernonattributable** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_foreign_otherntarptaxcredit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nontaxable_amitincrease** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_transactionnumber** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_movementcategory** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_otherntapncmi** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_type** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_costbase_incomeadjustments_amitincrease** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_discountedtapexcludedfromncmi** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_openingincomeadjustments_amit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_foreign_cfc** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_sale_duedate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_cleanbuildingmit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nontaxable_taxpaid** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_capitalgains_tax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_duedate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_taxcostbase** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_other** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_account_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_indexedto** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_indexed** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_openingincomeadjustments_taxfree** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_sale_effectivedate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_other_managerrebate** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_effectivedate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_foreigndiscountedntap** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_indexedntarp** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_openingincomeadjustments_capitalreturn** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_discountedntapexcludedfromncmi** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_income_frankingcredit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_pending** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_costbase_initialcostbase** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_other** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nontaxable_nonassessablenonexempt** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_nonresident_unfrankeddividends** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_income_nontaxable_taxexempt** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_other_unallocated** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_capitalgains_discountedntapncmi** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_income_otherincomecredittax** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_income_australian_unfrankedcfidividends** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_modelmovementid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_zzdate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_partition** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_key** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_offset** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_createddatetime** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_lastmodifieddatetime** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **transaction_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_source_kafka_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

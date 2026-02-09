@@ -1,0 +1,57 @@
+---
+title: "sat_evolve_client_contact_addresses"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_evolve_client_contact_addresses
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **value_state_client_contact_addresses_type** | `STRING` | TRUE | VS Type: ORIG_SUBSEQUENCE_ATTRIBUTE |
+| **value_identifier** | `STRING` | TRUE | VS Type: PRIMARY_KEY |
+| **value_state_client_contact_addresses_type_seq** | `STRING` | TRUE | VS Type: SUBSEQUENCE_ATTRIBUTE |
+| **value_state_client_contact_addresses_dpid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_addresses_suburb** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_addresses_status** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_addresses_countryname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_timestamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_client_contact_addresses_country** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_type** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_client_contact_addresses_postcode** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_addresses_line0** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_addresses_state** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_addresses_line1** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_client_contact_addresses_line2** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_partition** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_key** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_offset** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **client_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_source_kafka_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

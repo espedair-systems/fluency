@@ -1,0 +1,62 @@
+---
+title: "sat_tas_tta378_swt"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_tas_tta378_swt
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **am_wdrwl_bonus** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **qt_acrl** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_shr_trd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_swe_fee** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_swch_fee** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **ty_prsrvn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_opt_swch_cmpnt** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **dt_sttlmnt** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **in_all_money** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **qt_fr_unit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **id_ws_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **qt_to_unit** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_paf** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **id_user_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_fc_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_acct** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_txn_ref** | `NUMERIC` | TRUE | VS Type: PRIMARY_KEY |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **am_brkrg_cst_sell** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_brkrg_cst_buy** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **tx_cntrct** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_opt_swch** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **ts_chg** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **am_agt_comm** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **ty_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **transaction_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

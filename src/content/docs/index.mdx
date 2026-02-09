@@ -1,0 +1,122 @@
+---
+title: Data Fluency
+description: IFL Data Fluency provides access information about the organisation's data.
+template: splash
+hero:
+  title:    Data Fluency
+  tagline: Discover tips, resources, and guidance to maximize experience with IFL Data Platform.
+---
+
+import Section from "~/components/Section.astro";
+import Card from "~/components/user-components/NewCard.astro";
+import Grid from "~/components/user-components/Grid.astro";
+
+<Section title="Key features
+<span class='light-text'>for data fluency</span>" description="Explore the tools and design choices that make documentation efficient.">
+
+<Grid columns={4}>
+  <Card title="Platform" icon="substack" iconColor="#FF8585">
+    Understand the Unified Data Platform and data services
+  </Card>
+  <Card title="Ingestion" icon="seti:vite" iconColor="#7BE1A4">
+  Understand the source data loaded into the platform 
+  </Card>
+
+<Card title="Transformation" icon="seti:code-search" iconColor="#FFD97B">
+  Understand the transformed Data Vault and Business Consumption Models
+</Card>
+<Card title="Consumption" icon="seti:config" iconColor="#979BFF">
+  Understand the reporting and data extract layers
+</Card>
+</Grid>
+</Section>
+
+
+import ListCard from "~/components/user-components/ListCard.astro";
+import LinkButton from "~/components/LinkButton.astro";
+
+<Section title="Feature topics for <span class='light-text'>our data platform</span>" description="Explore our featured topics and get an idea of our data products.">
+
+<Grid columns={3}>
+<ListCard title="Source Systems" imageIcon="/src/assets/element.svg" number="15">
+- [BNPP](/contents/source-custodian/bnpp/)
+- [Morningstar](/contents/source-custodian/morningstar/)
+- [Evolve](/contents/source-registry/evolve/)
+- [TAS](/contents/source-registry/tas/)
+- [Compass](/contents/source-registry/compass/)
+- [Composer](/contents/source-registry/composer/)
+
+<LinkButton href="/contents/ingestion/" variant="text" className="mt-6 mb-8 ml-4">View Ingestion Overview</LinkButton>
+</ListCard>
+
+<ListCard title="Transformations" imageIcon="/src/assets/content.svg" number="18">
+- [Raw Vault](/contents/transformation/raw-vault/)
+- [Business Vault](/contents/transformation/business-vault/)
+- [Business Consumption Model](/contents/transformation/business-consumption-layer/)
+
+<LinkButton href="/contents/transformation/" variant="text" className="mt-6 mb-8 ml-4">View Transformation Overview</LinkButton>
+</ListCard>
+
+<ListCard title="Business Consumption" imageIcon="/src/assets/layouts.svg" number="8">
+- [Looker Core Reporting](/contents/consumption/looker/)
+- [Power BI Reporting](/contents/consumption/)
+- [Napier](/contents/consumption/)
+- [Master Data Management](/contents/consumption/)
+
+<LinkButton href="/contents/consumption/" variant="text" className="mt-6 mb-8 ml-4">View Consumption Overview</LinkButton>
+</ListCard>
+</Grid>
+
+
+</Section>
+
+{/* TODO: Add more details for the FAQ */}
+
+import AccordionContainer from "~/components/AccordionContainer.astro";
+import Accordion from "~/components/Accordion.astro";
+
+<Section
+  title="Have question? <span class='light-text'>We’re here to help</span>"
+  description="Get answers to the general questions people have asked."
+>
+
+<AccordionContainer tabList={
+  [
+    {
+      type: 'basic',
+      title: 'Getting Started',
+      subtitle:'Some questions about how to start.',
+      icon: "rocket"
+
+    },
+
+    {
+      type: 'help',
+      title: 'Help & Support',
+      subtitle:'What type of support we provide.',
+      icon: "support"
+
+    }
+]
+}>
+
+<Accordion
+  question="How do I get started with the Data Platform?"
+  answer="Establish your data needs and determine access"
+  type="basic"
+/>
+
+<Accordion
+  question="What is a workload project?"
+  answer="A workload project is a google cloud project for business teams"
+  type="basic"
+/>
+
+<Accordion
+  question="Request in Service Now - Workload Project Access"
+  answer="Service Now Ticket ... "
+  type="help"
+/>
+</AccordionContainer>
+
+</Section>

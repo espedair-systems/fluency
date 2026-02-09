@@ -1,0 +1,68 @@
+---
+title: "sat_compass_account"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_compass_account
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **account_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+| **prev_mbr_no** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **mbr_gen_key** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **prev_scheme_no** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **incl_rpt_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **pyrl_no** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **pr_mbr_no** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **case_mbr_key** | `NUMERIC` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **nameid** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **ctlg_dir_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **prev_pd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **tax_ctry_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **hlth_loc_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **from_age** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **partytype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **to_age** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **expire_new** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **rev_pension_flg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **mbr_typ_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **tr_excl_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **load_btch_id** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **life_loc_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **brk_auth_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **tx_relf_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **resident_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **last_mod_user** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **last_mod_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **age_evid_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **delete_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **case_key** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **fdel_key** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

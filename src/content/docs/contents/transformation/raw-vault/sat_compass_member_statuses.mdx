@@ -1,0 +1,56 @@
+---
+title: "sat_compass_member_statuses"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_compass_member_statuses
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **account_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+| **eff_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **case_mbr_key** | `NUMERIC` | TRUE | VS Type: PRIMARY_KEY |
+| **empl_stat_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **pymt_stat_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **xpir_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **mbst_key_seq** | `NUMERIC` | TRUE | VS Type: SUBSEQUENCE_ATTRIBUTE |
+| **tr_ref_no** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **rec_stat_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **expire_new** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **reas_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **prv_norm_rtmt_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **load_btch_id** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **mbst_key** | `NUMERIC` | TRUE | VS Type: ORIG_SUBSEQUENCE_ATTRIBUTE |
+| **last_mod_user** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **norm_rtmt_chng_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **last_mod_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **delete_dt** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **mbr_stat_cd** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

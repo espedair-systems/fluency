@@ -1,0 +1,52 @@
+---
+title: "sat_distributioncrm_reference"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_distributioncrm_reference
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **createddate** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **isactive** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **developername** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **lastmodifiedbyid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **createdbyid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **namespaceprefix** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **sobjecttype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **name** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **lastmodifieddate** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **description** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **ispersontype** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **systemmodstamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **businessprocessid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **reference_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

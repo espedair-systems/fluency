@@ -1,0 +1,56 @@
+---
+title: "sat_evolve_portfoliomovement_gst"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_evolve_portfoliomovement_gst
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **value_state_gst_accumulatornumber** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_gst_ritc** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_identifier** | `STRING` | TRUE | VS Type: PRIMARY_KEY |
+| **value_state_gst_gst** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_gst_accumulator_seq** | `STRING` | TRUE | VS Type: SUBSEQUENCE_ATTRIBUTE |
+| **value_state_gst_ritcaccrued** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_gst_accumulator** | `STRING` | TRUE | VS Type: ORIG_SUBSEQUENCE_ATTRIBUTE |
+| **value_state_gst_inclusive** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_gst_gross** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_gst_net** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_timestamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_type** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_gst_base** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_modelmovementid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_partition** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_key** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_offset** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **transaction_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_source_kafka_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

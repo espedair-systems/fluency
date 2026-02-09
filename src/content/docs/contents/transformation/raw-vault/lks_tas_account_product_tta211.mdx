@@ -1,0 +1,60 @@
+---
+title: "lks_tas_account_product_tta211"
+description: "VaultSpeed LDS table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# lks_tas_account_product_tta211
+
+VaultSpeed LDS table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** LDS
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **in_reb_trlr** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_opt** | `STRING` | TRUE | VS Type: FOREIGN_KEY |
+| **am_bad_due** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **pr_reb_trlr** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **nb_acct_reinv_dist** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_swp_in_meth** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_ws_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **am_fid_due** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **id_user_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_fc_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **nb_acct** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **cd_dist_meth** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_acct_bank_dist** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **am_min_bal_mbr** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **cd_surp_meth** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **cd_prod_reinv_dist** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **cd_prod** | `STRING` | TRUE | VS Type: FOREIGN_KEY |
+| **ty_reb_pr_basis** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **id_bank_acct_surp** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **ts_chg** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **cd_opt_reinv_dist** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **ty_chg** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **lnk_account_product_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:LDS`
+
+---

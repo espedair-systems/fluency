@@ -1,0 +1,66 @@
+---
+title: "sat_evolve_transaction_request"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_evolve_transaction_request
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **value_state_superfunddetails_superfundnumber** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_commutationauthorityamount** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_destinationaccount_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_commutationauthority** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_destinationaccount_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_superfunddetails_abn** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_identifier** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **value_state_status** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_conditionofrelease** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_net** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_payee** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_isinternaltransfertopension** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_exittype** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_paymentmethod** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_benefitpaymentcode** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_sourceaccount_identifier** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_references_sourceaccount_domain** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_timestamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_type** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_paiddate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_superfunddetails_superfundname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_superfunddetails_isselfmanagedsuperfund** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **value_state_gross** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **value_state_superfunddetails_usi** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_partition** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_key** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_source_kafka_offset** | `NUMERIC` | TRUE | VS Type: OTHER_MD_ATTR |
+| **transaction_request_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_source_kafka_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

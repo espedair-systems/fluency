@@ -1,0 +1,39 @@
+---
+title: "lks_tas_transaction_transaction_request"
+description: "VaultSpeed LDS table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# lks_tas_transaction_transaction_request
+
+VaultSpeed LDS table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** LDS
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **nb_req** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **nb_txn_ref** | `NUMERIC` | TRUE | VS Type: FOREIGN_KEY |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **lnk_transaction_transaction_request_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:LDS`
+
+---

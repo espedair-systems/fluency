@@ -1,0 +1,47 @@
+---
+title: "sat_outsystems_fundproduct_reference"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_outsystems_fundproduct_reference
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **recordstartdate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **activeflag** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **recordenddate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **contributionrestrictions** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **productname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **fromdate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **usi** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **abn** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **todate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **reference_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---

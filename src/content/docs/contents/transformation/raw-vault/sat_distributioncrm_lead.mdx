@@ -1,0 +1,109 @@
+---
+title: "sat_distributioncrm_lead"
+description: "VaultSpeed SAT table in schema udp_data_rv"
+---
+
+import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
+
+# sat_distributioncrm_lead
+
+VaultSpeed SAT table in schema udp_data_rv
+
+<Aside type="note">
+  **Type:** SAT
+</Aside>
+
+<Tabs>
+  <TabItem label="Columns">
+
+## Columns
+
+| Name | Type | Nullable | Comment |
+| :--- | :--- | :--- | :--- |
+| **status** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **jigsaw** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **ownerid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **createddate** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **industry** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **fax** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **suffix** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **emailbouncedreason** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **lastvieweddate** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **countrycode** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **middlename** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **mobilephone** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **platform__c** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **wps_product__c** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **website** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **salutation** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **insights__c** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **geocodeaccuracy** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **title** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **company** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **product__c** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **lastmodifiedbyid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **meeting__c** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **preferred_name__c** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **createdbyid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **lastactivitydate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **convertedopportunityid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **firstname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **recordtypeid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **masterrecordid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dupcheck__dc3disableduplicatecheck__c** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **hasoptedoutoffax** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **convertedaccountid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **lastreferenceddate** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **id** | `STRING` | TRUE | VS Type: BUSINESS_SRC_KEY |
+| **converteddate** | `DATE` | TRUE | VS Type: OTHER_ATTR |
+| **account__c** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **ar_code__c** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **product_sub_type__c** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **name** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **state** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **linkedin_profile__c** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **city** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **statecode** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **country** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **disqualification_reason__c** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **dupcheck__dc3web2lead__c** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **lastmodifieddate** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **photourl** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **isconverted** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_system** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **emailbounceddate** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **jigsawcontactid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **street** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **hasoptedoutofemail** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **description** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **email** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **convertedcontactid** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **longitude** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **isdeleted** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **dupcheck__dc3index__c** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **donotcall** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **systemmodstamp** | `TIMESTAMP` | TRUE | VS Type: OTHER_ATTR |
+| **lastname** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **leadsource** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **numberofemployees** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **postalcode** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **phone** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **metadata_record_source_name** | `STRING` | TRUE | VS Type: OTHER_MD_ATTR |
+| **rating** | `STRING` | TRUE | VS Type: OTHER_ATTR |
+| **annualrevenue** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **latitude** | `NUMERIC` | TRUE | VS Type: OTHER_ATTR |
+| **isunreadbyowner** | `BOOL` | TRUE | VS Type: OTHER_ATTR |
+| **lead_hkey** | `BYTES` | TRUE | VS Type: OBJECT_H_KEY |
+| **meta_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: LOAD_TIMESTAMP |
+| **meta_load_cycle_id** | `INT64` | TRUE | VS Type: LOAD_CYCLE_ID |
+| **meta_hash_diff** | `BYTES` | TRUE | VS Type: HASH_DIFF |
+| **meta_is_deleted** | `STRING` | TRUE | VS Type: DELETE_FLAG |
+| **metadata_inserted_timestamp_utc** | `TIMESTAMP` | TRUE | VS Type: TRANS_INDICATOR |
+
+  </TabItem>
+</Tabs>
+
+## Labels
+`VaultSpeedType:SAT`
+
+---
