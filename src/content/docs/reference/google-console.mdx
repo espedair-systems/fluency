@@ -1,0 +1,43 @@
+---
+title: Google Cloud Console
+description: Reference guide for navigating and configuring settings in the Google Cloud Console for Fluency.
+template: doc
+---
+
+# Google Cloud Console Reference
+
+The Google Cloud Console is the administrative interface for managing the underlying resources that power your Fluency environment, including data storage, AI models, and security settings.
+
+## Overview
+
+While most day-to-day operations are handled within Fluency, the Google Cloud Console is used for initial setup, billing management, and advanced resource monitoring.
+
+## Key Management Areas
+
+### IAM & Admin
+Manage permissions, service accounts, and API keys. This is where you grant Fluency the necessary roles to access your data.
+- **Service Accounts**: Create and manage the identities Fluency uses to interact with GCP APIs.
+- **Roles**: Assign `BigQuery Admin`, `Vertex AI User`, and other required permissions.
+
+### APIs & Services
+Enable the specific Google Cloud services required by Fluency:
+- **BigQuery API**
+- **Vertex AI API**
+- **Cloud Storage API**
+
+### Monitoring & Logging
+Track the performance and health of your data pipelines.
+- **Cloud Logging**: View detailed logs for debugging connection issues.
+- **Cloud Monitoring**: Set up alerts for resource usage or error thresholds.
+
+## Navigating to Your Project
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+2. Use the **Project Selector** in the top navigation bar to choose the project associated with your Fluency instance.
+3. Use the **Navigation Menu** (hamburger icon) to access specific services like BigQuery or Vertex AI.
+
+## Security Best Practices
+
+- **Principle of Least Privilege**: Only grant the minimum roles required for Fluency to function.
+- **Resource Quotas**: Monitor quotas for APIs to prevent service interruptions during heavy usage periods.
+- **Billing Alerts**: Set up budget alerts to manage your cloud infrastructure costs effectively.

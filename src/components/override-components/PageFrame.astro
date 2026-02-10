@@ -4,6 +4,7 @@ import Footer from "./Footer.astro";
 import CTA from "../CTA.astro";
 import SidebarNav from "../SidebarNav.astro";
 import ImageMod from "../ImageMod.astro";
+import Chatbot from "../Chatbot.astro";
 
 const { hasSidebar } = Astro.locals.starlightRoute;
 ---
@@ -72,6 +73,7 @@ const { hasSidebar } = Astro.locals.starlightRoute;
   </div>
   {!hasSidebar && <CTA />}
   {!hasSidebar && <Footer />}
+  <Chatbot />
 </div>
 
 <style>
@@ -165,7 +167,6 @@ const { hasSidebar } = Astro.locals.starlightRoute;
         width: var(--sl-sidebar-width);
         background-color: transparent;
         inset-block: calc(var(--sl-nav-height) + 110px) 0;
-       
       }
     }
   }
@@ -190,7 +191,7 @@ const { hasSidebar } = Astro.locals.starlightRoute;
 
   // accordion
   const accordions = document.querySelectorAll(
-    ".accordion"
+    ".accordion",
   ) as NodeListOf<HTMLElement>;
 
   accordions.forEach((accordion) => {

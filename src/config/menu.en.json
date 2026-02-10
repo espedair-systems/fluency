@@ -5,6 +5,10 @@
       "url": "/"
     },
     {
+      "name": "Knowledge Vault",
+      "url": "/knowledge-vault/"
+    },
+    {
       "name": "Documentation",
       "url": "/getting-started/introduction/overview/"
     },
@@ -14,12 +18,28 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Configuration",
-          "url": "/reference/configuration/"
+          "name": "Google Console",
+          "url": "/reference/google-console/"
         },
         {
-          "name": "Plugins Reference",
-          "url": "/reference/plugin/"
+          "name": "BigQuery",
+          "url": "/reference/bigquery/"
+        },
+        {
+          "name": "Data Canvas",
+          "url": "/reference/data-canvas/"
+        },
+        {
+          "name": "Data Insights",
+          "url": "/reference/data-insights/"
+        },
+        {
+          "name": "Data Prep",
+          "url": "/reference/data-prep/"
+        },
+        {
+          "name": "Vertex AI",
+          "url": "/reference/vertex-ai/"
         }
       ]
     }

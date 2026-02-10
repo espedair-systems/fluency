@@ -1,0 +1,40 @@
+---
+title: Vertex AI
+description: Reference guide for integrating and utilizing Google Cloud Vertex AI within Fluency.
+template: doc
+---
+
+# Vertex AI Reference
+
+Vertex AI is the primary machine learning platform for building, deploying, and scaling AI models within the Fluency ecosystem.
+
+## Overview
+
+By integrating with Google Cloud Vertex AI, Fluency provides access to state-of-the-art Generative AI models and machine learning infrastructure directly within your data workflows.
+
+## Key Capabilities
+
+- **Generative AI (Gemini)**: Utilize advanced LLMs for text generation, summarization, and data extraction.
+- **Model Garden**: Access a wide variety of first-party, open-source, and third-party models.
+- **AutoML**: Train high-quality custom models without writing code.
+- **Custom Training**: Deploy your own specialized models developed in TensorFlow, PyTorch, or Scikit-learn.
+
+## Integration in Fluency
+
+Vertex AI powers several intelligent features across the platform:
+
+### Knowledge Vault Assistant
+The chat interface in the Knowledge Vault uses Vertex AI models to provide context-aware answers based on your private documentation.
+
+### Automated Labeling
+Use LLMs to automatically categorize and tag incoming data streams during the **Data Prep** phase.
+
+### Sentiment & Entity Analysis
+Extract structured insights from unstructured text data using pre-trained Vertex AI APIs.
+
+## Setup & Authentication
+
+To enable Vertex AI:
+1. Ensure your Google Cloud Project has the **Vertex AI API** enabled.
+2. Configure your Service Account with the `Vertex AI User` role.
+3. Add your Project ID and Region to the Fluency Integration settings.
